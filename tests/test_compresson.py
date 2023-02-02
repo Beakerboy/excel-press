@@ -1,5 +1,5 @@
 import pytest
-from excel_press import *
+from excel_press.excel_press import *
 
 def test_unableToCompress():
     input = b'abcdefghijklmnopqrstuv.'
